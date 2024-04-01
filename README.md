@@ -1,44 +1,44 @@
 # TP1--Injection-des-dépendances
 1. Créer l'interface IDao avec une méthode getDate
-![IDao avec méthode getData](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribuees_TP1/assets/159661363/1e2230b0-0bc0-4244-bdb9-e6c0a8da308d)
+![IDao avec méthode getData](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribuees_TP1/assets/159661363/8f15243b-0f96-4806-9169-1fe0c22c4293)
 
 
 2. Créer une implémentation de cette interface 
-![Implementationde IDao](https://github.com/OTHMAN-BENMALEK/TP1--Injection-des-dependances/assets/159661363/0565e26d-b99c-41f9-871e-99ec4598bc7d)
+![Implementationde IDao](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribuees_TP1/assets/159661363/c183cbfb-10f4-490b-9b53-bf82853a9388)
 
 
 3. Créer l'interface IMetier avec une méthode calcul
-![Interface IMetier avec méthode calcul](https://github.com/OTHMAN-BENMALEK/TP1--Injection-des-dependances/assets/159661363/857bd33f-403f-4296-8a23-65d19348ab32)
+![Interface IMetier avec méthode calcul](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribuees_TP1/assets/159661363/d73760fa-1077-40da-b5c9-ca62e355fa65)
 
 
 4. Créer une implémentation de cette interface en utilisant le couplage faible
-![Implementation avec couplage faible](https://github.com/OTHMAN-BENMALEK/TP1--Injection-des-dependances/assets/159661363/82ee61d0-e2d6-4148-b4f1-ecef9124e629)
+![Implementation avec couplage faible](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribuees_TP1/assets/159661363/6f87b671-5043-4e93-825c-59cbeade3bc8)
 
 
 5. Faire l'injection des dépendances :
-![Ajout des dependences dans pom XML](https://github.com/OTHMAN-BENMALEK/TP1--Injection-des-dependances/assets/159661363/5a5e65c4-63b1-4f06-9203-4a1046beeda3)
+![Ajout des dependences dans pom XML](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribuees_TP1/assets/159661363/faec00db-bc74-4ac8-b4b3-ddfa0d1fe94d)
 
 
 a. Par instanciation statique
-  ![Instanciation statique (IOD)](https://github.com/OTHMAN-BENMALEK/TP1--Injection-des-dependances/assets/159661363/53d7b278-5bf8-4858-bc58-2860b4e0a78f)
-  Résultat : 
-![Résultat 1 ](https://github.com/OTHMAN-BENMALEK/TP1--Injection-des-dependances/assets/159661363/ff5b1576-0f27-4c29-b942-fe84511909a3)
+  ![Instanciation statique (IOD)](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribuees_TP1/assets/159661363/8dc95012-f0c4-4595-8631-426faebfb153)  
+Résultat : 
+![Résultat 1 ](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribuees_TP1/assets/159661363/0b29e5aa-2166-4022-a96a-95dcf1eb96c3)
 
   
 b. Par instanciation dynamique
 d'abord la création du fichier .txt :
-![Config txt pour dynamic](https://github.com/OTHMAN-BENMALEK/TP1--Injection-des-dependances/assets/159661363/acb27cfd-6acc-447e-a88e-bd0db17c1e5e)
+![Config txt pour dynamic](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribuees_TP1/assets/159661363/2ccaa96f-1374-44cf-8731-ab181d011130)
 puis :
-  ![Presentation 2__Dynamic résultat](https://github.com/OTHMAN-BENMALEK/TP1--Injection-des-dependances/assets/159661363/30eff70a-ac94-4da2-abbc-502c8fea00d9)
+![Presentation 2__Dynamic résultat](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribuees_TP1/assets/159661363/c7304664-7aa4-4b71-8b8b-0aa3ba08fb5d)
 
   
 c. En utilisant le Framework Spring
        
        
    1. Version XML
-       ![ApplicationContext code for Spring](https://github.com/OTHMAN-BENMALEK/TP1--Injection-des-dependances/assets/159661363/b483cddf-11a1-42f0-9a86-7f1c4e00d47b)
-![PresSpringXML result](https://github.com/OTHMAN-BENMALEK/TP1--Injection-des-dependances/assets/159661363/2470cd94-d78e-4405-9274-9df1d703efce)
+![ApplicationContext code for Spring](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribuees_TP1/assets/159661363/f90821a9-ad3c-454a-a36d-341a6e141605)
+![PresSpringXML result](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribuees_TP1/assets/159661363/7b925e17-d3ef-435e-a509-3328f1cca490)
 
        
    2. Version annotations
-![Version annotations](https://github.com/OTHMAN-BENMALEK/TP1--Injection-des-dependances/assets/159661363/7a2c05a5-9fd2-472c-89f8-76c7a90b2179)
+![Version annotations](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribuees_TP1/assets/159661363/1a169dc4-0323-4045-8328-907b3846e7dc)
