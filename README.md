@@ -1,6 +1,6 @@
 # TP1--Injection-des-dépendances
 1. Créer l'interface IDao avec une méthode getDate
-![IDao avec méthode getData](https://github.com/OTHMAN-BENMALEK/TP1--Injection-des-dependances/assets/159661363/1e2230b0-0bc0-4244-bdb9-e6c0a8da308d)
+![IDao avec méthode getData](https://github.com/OTHMAN-BENMALEK/Othman_Benmalek_Systemes-Distribuees_TP1/assets/159661363/1e2230b0-0bc0-4244-bdb9-e6c0a8da308d)
 
 
 2. Créer une implémentation de cette interface 
